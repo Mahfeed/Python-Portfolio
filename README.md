@@ -6,6 +6,11 @@
 > **Goal:** Master Python for **Automation, Data Cleaning, and Freelancing Projects** — one midnight coding session at a time.
 
 ---
+## 📅 Learning Log
+
+Mar 4 — Environment setup & Greeting Program  
+Mar 5 — Grade Calculator  
+Mar 6 — Number Guessing Game
 
 # 🚀 Project Roadmap
 
@@ -15,7 +20,7 @@ Tracking my daily progress as I build practical Python automation skills.
 | ------- | -------------------------- | ---------- | -------------------- |
 | **01**  | Environment Setup & Basics | ✅ Complete | Greeting Program     |
 | **02**  | Conditions & Logic Flow    | 🟢 Active  | Grade Calculator     |
-| **03**  | Loops & Iteration          | ⏳ Upcoming | Number Guessing Game |
+| **03**  | Loops & Iteration          | ✅ Complete | Number Guessing Game |
 | **04**  | Functions                  | ⏳ Upcoming | Calculator CLI       |
 | **05**  | File Handling              | ⏳ Upcoming | CSV Data Cleaner     |
 
@@ -24,7 +29,7 @@ Tracking my daily progress as I build practical Python automation skills.
 # 📊 Learning Progress
 
 ```
-Python Fundamentals     ████████░░ 80%
+Python Fundamentals     █████████░ 90%
 Automation Skills       ███░░░░░░░ 30%
 Data Cleaning           ██░░░░░░░░ 20%
 Freelancing Ready       ░░░░░░░░░░ 0%
@@ -122,6 +127,55 @@ else:
 ✔ Master **Excel + Python automation**
 
 ---
+---
+
+# 🌙 Session 3 — Loops & Iteration
+
+📅 **Date:** March 6, 2026
+🎯 **Focus:** Using loops to create interactive programs and simple games.
+
+## ✅ Accomplishments
+
+* Learned `for` loops
+* Implemented multiple attempts using loop iteration
+* Used `break` to exit loops early
+* Discovered Python's `for-else` behavior
+* Built an interactive CLI game
+
+## 🚀 Project: Number Guessing Game
+
+A simple terminal game where the user must guess a randomly generated number within **5 attempts**.
+
+```python
+import random
+
+number = random.randint(1, 100)
+guess = 0
+
+for i in range(5):
+    guess = int(input(f"Attempt {i+1}/5 || Enter the guessed number: "))
+
+    if guess == number:
+        print("You Won!")
+        break
+
+    elif guess < number:
+        print("Guess Higher")
+
+    else:
+        print("Guess Lower")
+
+else:
+    print(f"You are out of chances! The Number was {number}")
+```
+
+💡 **Concepts Learned**
+
+* `random` module
+* `for` loops
+* conditional logic
+* `break` statement
+* `for-else` loop structure
 
 # 📌 Current Focus
 
@@ -130,5 +184,11 @@ Learning → Practicing → Building → Freelancing
 ```
 
 ---
+## 🔥 GitHub Stats & Animations
+
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+![Top Languages](https://img.shields.io/github/languages/top/YOUR_USERNAME?theme=tokyonight)
+
+![Snake animation](https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.svg)
 
 ⭐ *Follow my journey as I build real Python tools and automation scripts.*
