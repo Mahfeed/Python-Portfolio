@@ -1,41 +1,82 @@
-# 🐍 Python Journey | Portfolio & Logs
-> **Goal:** Mastering Python for automation and data cleaning, one midnight at a time.
+![Python](https://img.shields.io/badge/Python-Learning-blue)
+![Status](https://img.shields.io/badge/Progress-Active-green)
+![Goal](https://img.shields.io/badge/Goal-Python%20Automation-orange)
+# 🐍 Python Automation Journey
+
+> **Goal:** Master Python for **Automation, Data Cleaning, and Freelancing Projects** — one midnight coding session at a time.
 
 ---
 
-## 📈 Progress Overview
-| Session | Focus | Status | Featured Project |
-| :--- | :--- | :--- | :--- |
-| **01** | Environment Setup & Basics | ✅ Complete | [Greeting Program](#-session-1-the-basics) |
-| **02** | Conditions & Logic Flow | 🏗️ In Progress | [Grade Calculator](#-session-2-conditions--logic-flow) |
+# 🚀 Project Roadmap
+
+Tracking my daily progress as I build practical Python automation skills.
+
+| Session | Topic                      | Status     | Project              |
+| ------- | -------------------------- | ---------- | -------------------- |
+| **01**  | Environment Setup & Basics | ✅ Complete | Greeting Program     |
+| **02**  | Conditions & Logic Flow    | 🟢 Active  | Grade Calculator     |
+| **03**  | Loops & Iteration          | ⏳ Upcoming | Number Guessing Game |
+| **04**  | Functions                  | ⏳ Upcoming | Calculator CLI       |
+| **05**  | File Handling              | ⏳ Upcoming | CSV Data Cleaner     |
 
 ---
-## 🌙 Session 1: The Basics
-**Date:** March 4, 2026
-**Focus:** Toolchain installation and core syntax.
 
-### ✅ Accomplishments
-- [x] Installed **VS Code** and configured the **Python Extension**.
-- [x] Established the **Git/GitHub** connection for version control.
-- [x] Mastered basic input handling and modern `f-string` formatting.
+# 📊 Learning Progress
 
-### 🚀 Featured Project: Greeting Program
+```
+Python Fundamentals     ████████░░ 80%
+Automation Skills       ███░░░░░░░ 30%
+Data Cleaning           ██░░░░░░░░ 20%
+Freelancing Ready       ░░░░░░░░░░ 0%
+```
+
+---
+
+# 🌙 Session 1 — The Basics
+
+📅 **Date:** March 4, 2026
+🎯 **Focus:** Python setup and core syntax
+
+## ✅ Accomplishments
+
+* Installed **VS Code**
+* Configured **Python Extension**
+* Connected **Git & GitHub**
+* Learned **user input and f-strings**
+
+## 🚀 Project: Greeting Program
+
+My first dynamic Python script.
+
 ```python
-# My first dynamic script
+# Greeting Program
 name = input("What is your name? ")
-print(f"Hello, {name}!")
+print(f"Hello, {name}! Welcome to my Python journey.")
+```
 
-## 🌙 Session 2: Conditions & Logic Flow ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-**Date:** March 5, 2026
-**Focus:** Building "intelligent" scripts that handle real-world data edge cases.
+💡 **Concepts Learned**
 
-### ✅ Accomplishments
-- [x] Mastered `if`, `elif`, and `else` structures for decision making.
-- [x] Implemented **Input Validation** to prevent processing of "dirty data" (marks < 0 or > 100).
-- [x] Learned **Nested Logic** to ensure clean output and prevent execution errors.
+* User input
+* Variables
+* f-string formatting
 
-### 🚀 Featured Project: Grade Calculator
-A robust script that categorizes student performance while sanitizing user input.
+---
+
+# 🌙 Session 2 — Conditions & Logic Flow
+
+📅 **Date:** March 5, 2026
+🎯 **Focus:** Decision making and input validation
+
+## ✅ Accomplishments
+
+* Learned `if`, `elif`, `else`
+* Implemented **input validation**
+* Practiced **nested logic**
+* Built a practical mini-project
+
+## 🚀 Project: Grade Calculator
+
+A script that evaluates student performance while ensuring valid input.
 
 ```python
 # Grade Calculator with Data Validation
@@ -44,7 +85,6 @@ marks = int(input("Enter your marks (0-100): "))
 if marks > 100 or marks < 0:
     print("Error: Please enter a number between 0 and 100.")
 else:
-    # Logic only executes if data is valid
     if marks >= 90:
         print("Grade: A")
     elif marks >= 80:
@@ -55,3 +95,40 @@ else:
         print("Grade: D")
     else:
         print("Grade: F")
+```
+
+💡 **Concepts Learned**
+
+* Conditional statements
+* Logical operators
+* Input validation
+* Nested decision structures
+
+---
+
+# 🧰 Tools I Use
+
+* 💻 **VS Code**
+* 🐍 **Python 3**
+* 🌐 **Git & GitHub**
+
+---
+
+# 🎯 Long Term Goals
+
+✔ Build **Python automation tools**
+✔ Create **data cleaning scripts for freelancers**
+✔ Earn **$800+ from Python freelancing projects**
+✔ Master **Excel + Python automation**
+
+---
+
+# 📌 Current Focus
+
+```
+Learning → Practicing → Building → Freelancing
+```
+
+---
+
+⭐ *Follow my journey as I build real Python tools and automation scripts.*
