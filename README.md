@@ -189,5 +189,5 @@ Learning → Practicing → Building → Freelancing
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Mahfeed&show_icons=true&theme=tokyonight)
 ![Top Languages](https://img.shields.io/github/languages/top/Mahfeed?theme=tokyonight)
 
-![Snake animation](https://github.com/Mahfeed/Python-Portfolio/blob/main/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Mahfeed/Python-Portfolio/blob/main/github-user-contribution.svg)
 ⭐ *Follow my journey as I build real Python tools and automation scripts.*
