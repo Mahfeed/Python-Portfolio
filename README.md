@@ -263,10 +263,16 @@ Learning → Practicing → Building → Freelancing
 ```
 
 ---
-## 🔥 GitHub Stats & Animations
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Mahfeed&show_icons=true&theme=tokyonight)
-![Top Languages](https://img.shields.io/github/languages/top/Mahfeed?theme=tokyonight)
+## 💻 Languages I Use
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahfeed&layout=compact&theme=tokyonight)
+## 🛠 Tech Stack
+![Python](https://img.shields.io/badge/Python-Automation-blue)
+![SQL](https://img.shields.io/badge/SQL-Database-green)
+![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
+![VS Code](https://img.shields.io/badge/Editor-VSCode-purple)
 
 ![Snake animation](https://github.com/Mahfeed/Python-Portfolio/blob/main/github-user-contribution.svg)
+
 ⭐ *Follow my journey as I build real Python tools and automation scripts.*
