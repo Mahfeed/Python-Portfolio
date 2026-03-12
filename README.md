@@ -19,9 +19,9 @@ Tracking my daily progress as I build practical Python automation skills.
 | Session | Topic                      | Status     | Project              |
 | ------- | -------------------------- | ---------- | -------------------- |
 | **01**  | Environment Setup & Basics | ✅ Complete | Greeting Program     |
-| **02**  | Conditions & Logic Flow    | 🟢 Active  | Grade Calculator     |
+| **02**  | Conditions & Logic Flow    | ✅ Complete   | Grade Calculator     |
 | **03**  | Loops & Iteration          | ✅ Complete | Number Guessing Game |
-| **04**  | Functions                  | ⏳ Upcoming | Calculator CLI       |
+| **04** | Lists & CLI Programs | ✅ Complete | Task Manager |
 | **05**  | File Handling              | ⏳ Upcoming | CSV Data Cleaner     |
 
 ---
@@ -29,10 +29,10 @@ Tracking my daily progress as I build practical Python automation skills.
 # 📊 Learning Progress
 
 ```
-Python Fundamentals     █████████░ 90%
-Automation Skills       ███░░░░░░░ 30%
+Python Fundamentals     ██████████ 95%
+Automation Skills       ████░░░░░░ 35%
 Data Cleaning           ██░░░░░░░░ 20%
-Freelancing Ready       ░░░░░░░░░░ 0%
+Freelancing Ready       █░░░░░░░░░ 5%
 ```
 
 ---
@@ -176,6 +176,85 @@ else:
 * conditional logic
 * `break` statement
 * `for-else` loop structure
+
+---
+
+## 🌙 Session 4 — Lists & CLI Task Manager 📝
+
+📅 **Date:** March 7, 2026
+🎯 **Focus:** Using lists and loops to build a simple command-line task manager.
+
+### ✅ Accomplishments
+
+* Learned **Python lists** for storing data
+* Used `append()` to add items dynamically
+* Implemented **task removal**
+* Used `enumerate()` to display numbered tasks
+* Added **sorting functionality**
+* Built a full **menu-driven CLI application**
+
+### 🚀 Project: Task Manager CLI
+
+A simple terminal-based task manager that allows the user to:
+
+* Add tasks
+* Remove tasks
+* View all tasks
+* Sort tasks alphabetically
+* Exit the program
+
+```python
+tasks = []
+
+while True:
+    print("-------------Tasks Manager-------------") 
+    print("1.Add 2.Remove 3.View 4.Sort 5.Exit")
+    choice = input("Enter the choice: ").lower()
+    
+    if choice == "1" or choice == "add":
+        new_task = input("Enter the new task:")
+        tasks.append(new_task)
+        print("Task Added")
+
+    elif choice == "2" or choice == "remove":
+        if len(tasks) > 0:
+            print(f"your tasks : {tasks}")
+            remove_task = input("Enter the task to remove : ")
+            if remove_task in tasks:
+                tasks.remove(remove_task)
+                print("task removed!")
+            else:
+                print("not found")
+        else:
+            print("nothing to remove")
+
+    elif choice == "3" or choice == "view":
+        print("Current Tasks:")
+        for index, task in enumerate(tasks):
+            print(f"{index+1}.{task}")
+
+    elif choice == "4" or choice == "sort":
+        tasks.sort()
+        print("Tasks sorted!")
+
+    elif choice == "5" or choice == "exit":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice, try again.")
+```
+
+💡 **Concepts Learned**
+
+* Python lists
+* List methods (`append`, `remove`, `sort`)
+* `while` loops
+* Menu-driven programs
+* `enumerate()` for indexed output
+
+---
+
 
 # 📌 Current Focus
 
