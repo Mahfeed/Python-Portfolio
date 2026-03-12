@@ -268,10 +268,10 @@ Learning → Practicing → Building → Freelancing
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahfeed&layout=compact&theme=tokyonight)
 ## 🛠 Tech Stack
-![Python](https://img.shields.io/badge/Python-Automation-blue)
-![SQL](https://img.shields.io/badge/SQL-Database-green)
-![Git](https://img.shields.io/badge/Git-Version%20Control-orange)
-![VS Code](https://img.shields.io/badge/Editor-VSCode-purple)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/sql-CC2927?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ![Snake animation](https://github.com/Mahfeed/Python-Portfolio/blob/main/github-user-contribution.svg)
 
