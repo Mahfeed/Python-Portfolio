@@ -1,4 +1,3 @@
-```markdown
 ![Python](https://img.shields.io/badge/Python-Expertise%20in%20Progress-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Actively%20Learning-28A745?style=for-the-badge)
 ![Goal](https://img.shields.io/badge/Goal-Python%20Automation%20%26%20Freelancing-FF6F00?style=for-the-badge)
@@ -11,40 +10,37 @@
 
 ## 📅 Learning Log
 
-| Date       | Milestone                          |
-|------------|------------------------------------|
+| Date | Milestone |
+| :--- | :--- |
 | Mar 4, 2026 | Environment setup & Greeting Program |
-| Mar 5, 2026 | Grade Calculator with validation   |
-| Mar 6, 2026 | Number Guessing Game               |
-| Mar 7, 2026 | Task Manager CLI                   |
+| Mar 5, 2026 | Grade Calculator with validation |
+| Mar 6, 2026 | Number Guessing Game |
+| Mar 7, 2026 | Task Manager CLI |
 | Mar 8, 2026 | Inventory Tracker CLI (Dictionaries) |
 
 ---
 
 ## 🚀 Project Roadmap
 
-| Session | Topic                        | Status          | Project                  |
-|---------|------------------------------|-----------------|--------------------------|
-| **01**  | Environment Setup & Basics   | ✅ Complete     | Greeting Program         |
-| **02**  | Conditions & Logic Flow      | ✅ Complete     | Grade Calculator         |
-| **03**  | Loops & Iteration            | ✅ Complete     | Number Guessing Game     |
-| **04**  | Lists & CLI Programs         | ✅ Complete     | Task Manager             |
-| **05**  | Dictionaries & Data Structures | ✅ Complete   | Inventory Tracker        |
-| **06**  | File Handling                | ⏳ Upcoming     | CSV Data Cleaner         |
-| **07**  | Automation Scripts           | ⏳ Upcoming     | Excel + Python Pipeline  |
+| Session | Topic | Status | Project |
+| :--- | :--- | :--- | :--- |
+| **01** | Environment Setup & Basics | ✅ Complete | Greeting Program |
+| **02** | Conditions & Logic Flow | ✅ Complete | Grade Calculator |
+| **03** | Loops & Iteration | ✅ Complete | Number Guessing Game |
+| **04** | Lists & CLI Programs | ✅ Complete | Task Manager |
+| **05** | Dictionaries & Data Structures | ✅ Complete | Inventory Tracker |
+| **06** | File Handling | ⏳ Upcoming | CSV Data Cleaner |
+| **07** | Automation Scripts | ⏳ Upcoming | Excel + Python Pipeline |
 
 ---
 
 ## 📊 Learning Progress
 
-```markdown
-Python Fundamentals     ██████████ 95%
-Automation Skills       ████░░░░░░ 40%
-Data Cleaning           ██░░░░░░░░ 25%
-Freelancing Ready       █░░░░░░░░░ 10%
-```
-
----
+```text
+Python Fundamentals  ██████████ 95%
+Automation Skills    ████░░░░░░ 40%
+Data Cleaning        ██░░░░░░░░ 25%
+Freelancing Ready    █░░░░░░░░░ 10%
 
 ## 🌟 Session Highlights
 
